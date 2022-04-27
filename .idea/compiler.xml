@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ysmjjsy_user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ysmjjsy" target="1.5" />
+      <module name="ysmjjsy_coupon" target="1.6" />
+      <module name="ysmjjsy_member" target="1.6" />
+      <module name="ysmjjsy_order" target="1.6" />
+      <module name="ysmjjsy_product" target="1.6" />
+      <module name="ysmjjsy_user" target="1.8" />
+      <module name="ysmjjsy_ware" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ysmjjsy_coupon" options="-parameters" />
+      <module name="ysmjjsy_member" options="-parameters" />
+      <module name="ysmjjsy_order" options="-parameters" />
+      <module name="ysmjjsy_product" options="-parameters" />
+      <module name="ysmjjsy_user" options="-parameters" />
+      <module name="ysmjjsy_ware" options="-parameters" />
+    </option>
+  </component>
+</project>

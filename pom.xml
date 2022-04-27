@@ -10,13 +10,9 @@
 
     <packaging>pom</packaging>
 
-<!--    <modules>-->
-<!--        <module>ysmjjsy_coupon</module>-->
-<!--        <module>ysmjjsy_member</module>-->
-<!--        <module>ysmjjsy_order</module>-->
-<!--        <module>ysmjjsy_product</module>-->
-<!--        <module>ysmjjsy_ware</module>-->
-<!--    </modules>-->
+    <modules>
+        <module>ysmjjsy_user</module>
+    </modules>
 
 
 </project>
